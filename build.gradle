@@ -6,6 +6,7 @@ buildscript {
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
         classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.15.1"
+
     }
 }
 
@@ -15,6 +16,7 @@ group "findbugs"
 apply plugin:"eclipse"
 apply plugin:"idea"
 apply plugin:"war"
+apply plugin:"java"
 apply plugin:"org.grails.grails-web"
 apply plugin:"asset-pipeline"
 apply plugin:"org.grails.grails-gsp"

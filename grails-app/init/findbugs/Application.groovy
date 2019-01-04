@@ -1,4 +1,4 @@
-package find
+package findbugs
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

@@ -1,4 +1,4 @@
-package find
+package findbugs
 
 class UrlMappings {
 
@@ -9,7 +9,8 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/"(controller:"test", view:"/index")
+
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
